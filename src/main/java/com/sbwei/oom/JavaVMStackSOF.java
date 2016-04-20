@@ -20,7 +20,8 @@ public class JavaVMStackSOF {
     public static void main(String[]args){
         JavaVMStackSOF oom = new JavaVMStackSOF();
         try{
-            oom.stackLeakTwo();
+            oom.stackLeakOne();
+            //oom.stackLeakTwo();
         }catch (Throwable e){
             e.printStackTrace();
             System.out.println("stackLength ----->" + oom.stackLength);
